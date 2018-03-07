@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="bondsLigua_cs_controller_client.addcompanyController">
+    <children>
+      <JFXTextField fx:id="inputsharenumber" layoutX="475.0" layoutY="245.0" prefWidth="200.0" />
+      <JFXTextField fx:id="inputtokensharenumber" layoutX="482.0" layoutY="365.0" prefWidth="200.0" />
+      <Label layoutX="350.0" layoutY="250.0" style="-fx-text-fill: #0080ff;" text="sharenumber" />
+      <JFXButton fx:id="Ajouter" layoutX="150.0" layoutY="230.0" onAction="#Ajouter" prefHeight="60.0" prefWidth="150.0" style="-fx-background-color: #0080ff; -fx-opacity: 0.7;" text="Ajouter" />
+      <JFXButton fx:id="Afficher" layoutX="150.0" layoutY="310.0" onAction="#Afficher" prefHeight="60.0" prefWidth="150.0" style="-fx-background-color: #0080ff; -fx-opacity: 0.7;" text="Afficher" />
+      <JFXButton fx:id="supprimer" layoutX="150.0" layoutY="400.0" onAction="#supprimer" prefHeight="60.0" prefWidth="150.0" style="-fx-background-color: #0080ff; -fx-opacity: 0.7;" text="supprimer" />
+      <JFXButton fx:id="modifier" layoutX="150.0" layoutY="490.0" onAction="#modifier" prefHeight="60.0" prefWidth="150.0" style="-fx-background-color: #0080ff; -fx-opacity: 0.7;" text="modifier" />
+      <AnchorPane prefHeight="200.0" prefWidth="768.0" style="-fx-background-color: #3b3b3b;">
+         <children>
+           
+           
+            <JFXButton fx:id="retour" layoutX="50.0" layoutY="87.0" onAction="#retour" prefHeight="56.0" prefWidth="56.0" text=" " />
+         </children>
+      </AnchorPane>
+      <Label layoutX="350.0" layoutY="370.0" style="-fx-text-fill: #0080ff;" text="tokensharenumber" />
+      <Label layoutX="350.0" layoutY="310.0" style="-fx-text-fill: #0080ff;" text="operatingincome" />
+      <JFXTextField fx:id="inputoperatingincome" layoutX="475.0" layoutY="305.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
